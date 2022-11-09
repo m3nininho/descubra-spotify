@@ -1,0 +1,44 @@
+.container-find-out {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  background: var(--color--bg-body);
+  width: 50rem;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+.text-box {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.item {
+  max-width: 50rem;
+  width: 100%;
+  padding: 1.5rem;
+  text-align: center;
+}
+.item p {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  color: var(--color--text-default);
+}
+.item span {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.item button {
+  padding: 1rem;
+  width: 22rem;
+  border-radius: 20px;
+  background: var(--color--text-default);
+  color: var(--color--bg-body);
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  font-weight: bold;
+  border: 1px solid #000;
+}

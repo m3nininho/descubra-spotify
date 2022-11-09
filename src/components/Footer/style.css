@@ -1,0 +1,68 @@
+.footer {
+  width: 50rem;
+  margin: 0 auto;
+  text-align: center;
+  background: var(--color--bg-footer);
+  border-radius: 10px;
+}
+.box {
+  border-bottom: 1px solid var(--color--risk);
+  width: 40rem;
+  margin: 0 auto;
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+}
+.box img {
+  width: 8rem;
+}
+.box nav {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+.box p {
+  font-size: 1.125rem;
+  color: var(--color--text-footer);
+}
+.download-ul {
+  display: flex;
+  gap: 1rem;
+}
+.download-ul li a {
+  color: var(--color--link);
+  font-weight: bold;
+  font-size: 1.125rem;
+}
+.box-return {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  font-size: 1.3rem;
+  letter-spacing: 0.1rem;
+}
+.box-return p {
+  color: var(--color--text-footer);
+  font-size: 1.135rem;
+}
+.box-return a {
+  text-decoration: underline;
+}
+.box-return span {
+  font-weight: bold;
+  color: var(--color--text-default);
+}
+.box-terms {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+.box-terms a {
+  font-weight: bold;
+  color: var(--color--text-default);
+  font-size: 1.125rem;
+}
+.terms {
+  padding: 1rem;
+  color: var(--color--text-footer);
+  font-size: 1.125rem;
+}

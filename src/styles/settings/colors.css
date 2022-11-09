@@ -1,0 +1,9 @@
+:root {
+  font-size: 10px;
+  --color--bg-body: #c3f0c8;
+  --color--text-default: #000;
+  --color--bg-footer: #f7f7f7;
+  --color--risk: #d1d5d9;
+  --color--link: #27272a;
+  --color--text-footer: #88898c;
+}
